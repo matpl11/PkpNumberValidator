@@ -1,0 +1,14 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PkpNumberValidator"
+        mc:Ignorable="d"
+        Title="Walidator numerów poc." Height="120" Width="200">
+    <Grid>
+        <TextBox x:Name="numberBox" VerticalAlignment="Top" Margin="5,5,5,0"/>
+        <Button x:Name="btnValidate" Click="ClickOnValidate" Content="Zweryfikuj numer" Height="22" Width="110" VerticalAlignment="Bottom" Margin="0,0,0,28"/>
+        <Label x:Name="validationResultBox" Content="debug" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
