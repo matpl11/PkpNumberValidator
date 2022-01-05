@@ -5,6 +5,8 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>PkpNumberValidator</RootNamespace>
     <UseWPF>true</UseWPF>
+    <Version>0.1</Version>
+    <Authors>Argeos</Authors>
   </PropertyGroup>
 
   <ItemGroup>
