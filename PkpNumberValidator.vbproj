@@ -7,6 +7,7 @@
     <UseWPF>true</UseWPF>
     <Version>0.1</Version>
     <Authors>Argeos</Authors>
+    <Copyright>2021 Argeos (matpl11)</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
