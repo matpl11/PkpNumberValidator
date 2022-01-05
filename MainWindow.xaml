@@ -9,6 +9,6 @@
     <Grid>
         <TextBox x:Name="numberBox" VerticalAlignment="Top" Margin="5,5,5,0"/>
         <Button x:Name="btnValidate" Click="ClickOnValidate" Content="Zweryfikuj numer" Height="22" Width="110" VerticalAlignment="Bottom" Margin="0,0,0,28"/>
-        <Label x:Name="validationResultBox" Content="debug" VerticalAlignment="Bottom"/>
+        <Label x:Name="validationResultBox" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
